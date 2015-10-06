@@ -1,7 +1,7 @@
 import json
 import os.path
 import numpy
-import Image
+from PIL import Image
 import sys
 from pascal_voc_writer import PascalVocWriter
 from base64 import b64encode, b64decode
